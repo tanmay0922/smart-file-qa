@@ -1,0 +1,20 @@
+<h1>Hello Smart File QA</h1>
+<h3>Upload File & Ask a Question</h3>
+
+<form id="qaForm" enctype="multipart/form-data">
+  <label for="email">Email:</label><br>
+  <input type="email" name="email" id="email" placeholder="Enter your email..." required><br><br>
+
+  <label for="file">Choose File:</label><br>
+  <input type="file" name="file" id="file" required><br><br>
+
+  <label for="prompt">Question:</label><br>
+  <textarea name="prompt" id="prompt" placeholder="Enter your prompt here..." required></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<div>
+  <b>Response:</b>
+  <pre id="response"></pre>
+</div>
